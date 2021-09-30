@@ -1,0 +1,122 @@
+{
+	"pages": [
+	
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/me/select",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/evaluation/evaluation",
+			"style": {
+				"navigationBarTitleText": "结束问答"
+			}
+		},
+		{
+		    "path" : "pages/askQuestion/description",
+		    "style" : {
+				"navigationBarTitleText": "问题描述"
+			}
+		},
+		{
+			"path": "pages/askQuestion/photograph/photograph",
+			"style": {
+				"navigationBarTitleText": "提问",
+				"backgroundColor": "#F0F0F0"
+			}
+		},
+		{
+			"path": "pages/answerQuestions/index",
+			"style": {
+				"navigationBarTitleText": "答疑",
+				"backgroundColor": "#F0F0F0"
+			}
+		},
+		{
+			"path": "pages/askQuestion/askQuestion",
+			"style": {
+				"navigationBarTitleText": "问题",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/me/info",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/me/detailInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/me/avater",
+			"style": {
+				"navigationBarTitleText": "头像"
+			}
+		},
+		{
+			"path": "pages/me/certification",
+			"style": {
+				"navigationBarTitleText": "认证资料"
+			}
+		},
+		{
+			"path": "pages/me/major",
+			"style": {
+				"navigationBarTitleText": "解答科目"
+			}
+		}
+
+	    
+    ],
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#FFC107",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/icons/index.png",
+				"selectedIconPath": "static/icons/index-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/askQuestion/askQuestion",
+				"iconPath": "static/icons/ask.png",
+				"selectedIconPath": "static/icons/ask-active.png",
+				"text": "提问"
+			},
+			{
+				"pagePath": "pages/me/info",
+				"iconPath": "static/icons/me.png",
+				"selectedIconPath": "static/icons/me-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "爱心支教",
+		"navigationBarBackgroundColor": "#FFC107",
+		"backgroundColor": "#FFFFFF"
+	}
+}
